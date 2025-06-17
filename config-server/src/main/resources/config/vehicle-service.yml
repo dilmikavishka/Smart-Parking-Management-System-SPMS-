@@ -1,0 +1,19 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: vehicle-service
+  datasource:
+    url: jdbc:mysql:/SMPSVehicleCrudDb?createDatabaseIfNotExist=true
+    username: root
+    password: Ijse@123
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
