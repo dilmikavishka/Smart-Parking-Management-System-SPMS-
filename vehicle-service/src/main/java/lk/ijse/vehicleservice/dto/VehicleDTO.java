@@ -1,0 +1,17 @@
+package lk.ijse.vehicleservice.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class VehicleDTO {
+    private String vehicleId;
+    private String vehicleName;
+    private String vehicleType;
+    private String vehicleNumber;
+    private String vehicleModel;
+    private String userId;
+}
