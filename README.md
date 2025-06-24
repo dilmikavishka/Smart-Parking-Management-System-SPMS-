@@ -56,7 +56,7 @@ You can find the full collection below:
 
 Shows all services registered via Eureka Server:
 
-- ![Eureka Dashboard](./docs/)
+- ![Eureka Dashboard](./docs/Screenshot%202025-06-24%20095900.png)
 
 ---
 
