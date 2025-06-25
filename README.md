@@ -27,7 +27,6 @@ A cloud-native, microservice-based system that enables real-time parking space d
 - **MySQL**
 - **Postman** (for API testing)
 - **Lombok**
-- **Docker (optional)**
 
 ---
 
@@ -39,7 +38,6 @@ A cloud-native, microservice-based system that enables real-time parking space d
 - 💳 Simulate digital transactions and generate receipts
 - 🚗 Vehicle entry/exit simulation
 - 📊 Track parking usage per city/zone/owner
-- 📜 Historical logs for users and administrators
 
 ---
 
