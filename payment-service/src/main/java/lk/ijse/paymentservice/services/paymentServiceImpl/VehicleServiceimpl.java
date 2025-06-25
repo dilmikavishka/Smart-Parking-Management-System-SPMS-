@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 @RequiredArgsConstructor
 public class VehicleServiceimpl implements VehicleServiceClient {
-    private static final Logger logger = LoggerFactory.getLogger(VehicleServiceimpl.class); // Use correct class name here
+    private static final Logger logger = LoggerFactory.getLogger(VehicleServiceimpl.class);
     private final RestTemplate restTemplate;
 
     @Override
